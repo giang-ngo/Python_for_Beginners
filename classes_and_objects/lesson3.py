@@ -33,7 +33,7 @@ class Employee(Person):
         print(f'{self.first} vào làm lúc {time}')
 
     def calculate_salary(self, day):
-        real_salary = self.salary / 22
+        real_salary = self.salary * day / 22
         print(f'{self.first} có mức lương là {real_salary}')
 
 
